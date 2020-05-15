@@ -41,40 +41,29 @@ height: 100px;
 }
 
 .login {
-  /* background-color: #1c5380;
-  background-image: linear-gradient(#1c5380, #06365f);
-  height: 15px;
-  width: 100px;
-
-  
-  color: white;
-
-  margin-top: 20px;
-
-
-  border-color: #06365f;
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; */
-  /* width: 120px;
-	height: 52px; */
-	/*  */
-  background-color: #1c5380;
+  background-image: url(../images/bgtile.png);
 	color: white;
-	font-size: 18px;
+	font-size: 14px;
 	text-align: center;
 	border-color: #1c5380;
   border-radius: 5px;
   padding: 0px;
-  margin: 5px 5px 5px 70px;
-  height: 50px;
+  margin: 5px 5px 5px 25px;
+  height: 40px;
   width: 100px;
 }
 
 .white-box {
   background: white;
-  width: 500px;
+  width: 400px;
   border-radius: 5px;
   padding: 7px 30px;
   /* box-shadow:  */
+}
+
+h2{
+  color: #06365f;
+  width: 63%
 }
 
 .badges-container {
@@ -89,4 +78,9 @@ height: 100px;
 .footer {
   display: flex;
   justify-content: center;
+}
+
+
+footer:a{
+  text-decoration: none;
 }
