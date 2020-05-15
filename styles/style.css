@@ -36,15 +36,37 @@ body {
   flex-direction: row;
 }
 
+.logo{
+height: 100px;
+}
+
 .login {
- 
-  height: 35px;
+  /* background-color: #1c5380;
+  background-image: linear-gradient(#1c5380, #06365f);
+  height: 15px;
   width: 100px;
-  background-color: #1c5380;
-  color: white;
-  font-size: 15px;
-  text-align: center;
+
   
+  color: white;
+
+  margin-top: 20px;
+
+
+  border-color: #06365f;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  /* width: 120px;
+	height: 52px; */
+	/*  */
+  background-color: #1c5380;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	border-color: #1c5380;
+  border-radius: 5px;
+  padding: 0px;
+  margin: 5px 5px 5px 70px;
+  height: 50px;
+  width: 100px;
 }
 
 .white-box {
@@ -58,6 +80,10 @@ body {
 .badges-container {
   display: flex;
   flex-direction: row;
+}
+
+.iphone-badge{
+  margin-right: 20px;
 }
 
 .footer {
