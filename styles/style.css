@@ -9,30 +9,58 @@ body {
   margin: 0;
 }
 
-
-.bg-container{
+.bg-container {
   display: flex;
   background-image: url(../images/bgtile.png);
   height: 400px;
 }
 
-.foreground-container{
-display: flex;
-flex-direction: column;
+.foreground-container {
+  display: flex;
+  flex-direction: column;
+  margin: 150px 400px;
 }
 
-.top-container{
+/* aka no footer links */
+.top-container {
   display: flex;
   flex-direction: row;
 }
 
-.logo-stuff-container{
-  background: white;
-  /* height: 500px; */
-  width: 600px;
+.right-side-container {
+  margin-left: 50px;
 }
 
-.footer{
+.logo-stuff-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.login {
+ 
+  height: 35px;
+  width: 100px;
+  background-color: #1c5380;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  
+}
+
+.white-box {
+  background: white;
+  width: 500px;
+  border-radius: 5px;
+  padding: 7px 30px;
+  /* box-shadow:  */
+}
+
+.badges-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer {
   display: flex;
   justify-content: center;
 }
