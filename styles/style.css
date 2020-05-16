@@ -58,7 +58,9 @@ height: 100px;
   width: 400px;
   border-radius: 5px;
   padding: 7px 30px;
-  /* box-shadow:  */
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+
 }
 
 h2{
@@ -81,6 +83,16 @@ h2{
 }
 
 
-footer:a{
+span{
+  color: #1c5380;
   text-decoration: none;
+  size: 4px;
+  font-weight: bold;
+  margin: 50px 10px 0px 10px
+}
+
+#copy{
+ 
+  color: gray;
+  font-weight: none;
 }
